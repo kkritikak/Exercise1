@@ -1,3 +1,4 @@
+#(13/20)
 import math
 import numpy as np
 import matplotlib.pyplot as p
@@ -8,13 +9,13 @@ def random_numbers():
     return np.random.uniform()
 
 
-# 1)
-#  a)
+# 1)total in part 1-(4.5/5)
+#  a)(1/1)
 a = []
 for n in range(100000):
     a.append(random_numbers())
 
-#  b)
+#  b)(0.5/1)  forgot to divide by N in variance function
 def average(x):
     sum = 0.0
     for i in x:
@@ -33,12 +34,12 @@ def err(x):
 
 print(average(a), variance(a), err(a))
 
-#  c)
+#  c)(1/1)
 counts, bins = np.histogram(a)
 p.hist(counts, bins)
 p.plot()
 
-#  d)
+#  d)(1/1)
 b = []
 for n in range(100000):
     b.append(random_numbers())
@@ -46,7 +47,7 @@ for n in range(100000):
 p.scatter(a, b, 0.1)
 p.plot()
 
-#  e)
+#  e)(1/1)
 def my_random(seed):
     a = 1664525
     b = 1013904223
@@ -62,7 +63,7 @@ counts, bins = np.histogram(c)
 p.hist(counts, bins)
 p.plot()
 
-# 2)
+# 2)total in part 2- (5/5)
 n = 2**20
 hits = 0
 for i in range(n):
@@ -74,13 +75,14 @@ pi = 4 * hits / n
 print(pi)
 
 
-# 4)
-#  a)
+# 4)total in part4 - (3.5/6)
+#  a)(1/1.5)  note:0.5 deducted for not answering:? For which temperatures would the use of the single-spin-flip (Metropolis) #algorithm and the Wolffalgorithm, respectively, be appropriate?
+
 # When we reach low temperatures relativly stable areas form.
 # By increasing the temperature they diffuse and get random. The transition to randomness is
 # found by roundabout T=2.47
 
-#  b)
+#  b)(1.5/3)  
 # 1 random cell selection
 # 2 energy calculation: E_i=-J * sum(s_j, s_k)
 # 3 energy calculation E_j

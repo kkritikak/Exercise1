@@ -1,0 +1,9 @@
+Exercise(3)(3/4):
+
+(a)1/1 point
+(b)2/2 point
+(c)not done; 0/1  
+
+Exercise(4)(2.5/6):
+(a)2.5/3    note:The metropolis algorithm will be faster in computing the high temperature state, while the wolff algorithm will be much faster at 𝑇<=𝑇𝐶.
+(b)not done; 0/3
