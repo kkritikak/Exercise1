@@ -5,7 +5,7 @@ from math import sqrt
 from numpy import histogram
 from time import time
 
-
+#(5/5points for Task 1)
 import matplotlib.pyplot as plt
 
 num_values = 100000

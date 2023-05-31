@@ -1,0 +1,7 @@
+Task3(4/4points)
+(a)1/1
+(b)2/2
+(c)1/1
+Task4(4.5/6)
+(a)2.5  (wolf algorithm is usefull for low temp. and single flip will be more useful at high temp.)
+(b)2.5  (the idea of calculating(deriving) delta E was correct but didn't give any values(or didn't reach any conclusion)
